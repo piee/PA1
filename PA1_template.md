@@ -29,6 +29,7 @@ output:
 ```{r, echo=TRUE}
   hist(x=total_step,breaks=20,xlab="Total Steps Per Day", ylab="Frequency", main="The distribution of total step per day(missing data ignored)")
 ```
+![plot of chunk 1](figure/1.png)
 
 #### Calculate and report the mean and median of the total number of steps taken per day.
 ```{r, echo=TRUE}
