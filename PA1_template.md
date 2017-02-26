@@ -39,6 +39,7 @@ output:
     mean(total_step_na)
     median(total_step_na)
 ```
+Mean = 10766.19, Median = 10765
 
 # What is the average daily activity pattern?
 #### Activity pattern 
@@ -55,6 +56,8 @@ output:
   max <- max(interval_int$avg)
   interval_int[interval_int$avg== max,]
 ```
+Interval = 835, Average = 206.1698
+
 # Imputing missing values
 #### Calculate and report the total number of missing values in the dataset
 ```{r, echo=TRUE}
@@ -84,6 +87,8 @@ Here, I will devise the strategy for filling in all the missing values into aver
   mean(new_total)
   median(new_total)
 ```
+Mean = 10766.19, Median = 10766.19
+
 # Are there differences in activity patterns between weekdays and weekends?
 #### Create a new factor variable in the dataset with two levels; weekday, weekend. It is indicating whether a given date is a weekday or weekend day.
 ```{r, echo=TRUE}
